@@ -6,7 +6,7 @@ import { Component,EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent{
    @Output() navoptionSelected = new EventEmitter<string>();
-	onClick(navoption:string){
+	onClickNav(navoption: string){
 		this.navoptionSelected.emit(navoption);
 	}
 

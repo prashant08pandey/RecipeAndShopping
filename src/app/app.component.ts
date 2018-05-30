@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-	navigatedRoute:string = 'recipe';
+	navigatedRoute = 'recipe';
  	onNavigate(route:string){
  		this.navigatedRoute = route;
  	} 
